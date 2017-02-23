@@ -1,0 +1,220 @@
+.bus_area{
+	text-align: right;
+	padding-top: 34px;
+}
+.bus_co{
+	display: inline-block;
+	width: 200px;
+	height: 346px;
+	background: #fbfbfb;
+	text-align: center;
+}
+.bus_co span{
+	display: block;
+	margin-top: 20px;
+	color: #333333;
+	font-size: 16px;
+}
+.co_head{
+	color: #ffffff !important;
+	font-size: 18px;
+	margin-top: -30px !important;
+}
+.bus_img_area{
+	text-align: center;
+	padding-top: 46px;
+}
+.bus_text_area{
+	text-align: left;
+}
+.text_bl{
+	display: inline-block;
+}
+.text_bl img{
+	float: left;
+	margin-top: 36px;
+	margin-left: 46px;
+}
+.te{
+	display: inline-block;
+	float: left;
+	width: 40%;
+	margin-top: 36px;
+	margin-left: 20px;
+}
+
+.te_content{
+	color: #969696;
+	font-size: 18px;
+}
+.te_title{
+	color: #585858;
+	font-size: 20px;
+	display: block;
+}
+.text_lb{
+	text-align: right;
+}
+.text_lb img{
+	float: right;
+}
+.lb{
+	display: inline-block;
+	width: 40%;
+	margin-top: 36px;
+	margin-right: 20px;
+}
+.lb_title{
+	color: #585858;
+	font-size: 20px;
+	display: block;
+}
+.text_lb img{
+	margin-top: 36px;
+	margin-right: 46px;
+}
+.img_talk{
+	margin-top: 36px;
+	margin-left: 70px;
+}
+.talk_area{
+	padding-top: 24px;
+	padding-bottom: 100px;
+}
+.list_sq{
+	display: block;
+	overflow: hidden;
+}
+.list_sq img{
+	float: left;
+	margin-left: 40px;
+	margin-top:40px;
+}
+.list_text{
+	display: inline-block;
+	float: left;
+	font-size: 14px;
+	color: #5b5b5b;
+	margin-left: 40px;
+	margin-top: 48px;
+}
+.list_text_title{
+	display: block;
+}
+.list_text_content{
+	display: inline-block;	
+	text-align: left;
+}
+.man_img img{
+	margin: auto;
+}
+.cooperate{
+	text-align: center;
+	background: url(../img/1920px_600px_banner.png);
+}
+.cooperate_title{
+	font-size: 38px;
+	color: #333333;
+	font-weight: bold;
+}
+.cooperate_title_f{
+	font-size: 34px;
+	color: #333333;
+	font-weight: bold;
+}
+.cooperate_title_f span{
+	color: #fe6000;
+}
+.cooperate_span{
+	margin-bottom: 50px;
+}
+.cooperate_span span{
+	display: block;
+	font-size: 18px;
+	line-height: 50px;
+	font-weight: bold;
+}
+.area_service{
+	text-align: center;
+}
+.tel_area{
+	display: inline-block;
+	font-size: 24px;
+	color: #ffffff;
+	background: #ec6464;
+	line-height: 50px;
+	border-radius: 20px;
+	padding: 5px 30px;
+	margin-top: 70px;
+}
+.area_service{
+	text-align: center;
+}
+.area_service_img{
+	display: inline-block;
+	width: 15%;
+}
+.area_service_img img{
+	display: block;
+	margin: 90px auto 0;
+}
+.area_service_img_text{
+	color: #333333;
+	font-size: 20px;
+	margin-top: 28px;
+	display: inline-block;
+}
+.apply_form{
+	text-align: center;
+	margin-top: 56px;
+}
+.form_head{
+	display: block;
+	font-size: 18px;
+	color: #333333;
+	font-weight: bold;
+	margin-bottom: 26px;
+}
+.intention_area{
+	font-size: 14px;
+	 color: #333333;
+	 display: inline-block;
+	 width: 6%;
+	 text-align: right;
+}
+.apply_form select{
+	width: 118px;
+	font-size: 14px;
+	line-height: 30px;
+	border: 1px solid #d6d6d6;
+	display: inline-block;
+	height: 30px;
+}
+.contacter{
+	width: 362px;
+	margin-top:20px;
+	font-size: 14px;
+	line-height: 30px;
+	border: 1px solid #d6d6d6;
+	height: 30px;
+}
+.form_sub{
+	background: #3aace7;
+}
+.form_sub{
+	margin-top: 40px;
+	width: 130px;
+	height: 40px;
+	border-radius: 10px;
+	color: #ffffff;
+	font-size: 14px;
+	margin-bottom: 56px;
+}
+.area_service_detail{
+	display: inline-block;
+	width: 70%;
+	height: 200px;
+	color: #6d6d6d;
+	vertical-align: text-top;
+	margin-top: 24px;
+}

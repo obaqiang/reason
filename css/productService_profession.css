@@ -1,0 +1,118 @@
+.pro_left{
+	text-align: right;
+}
+.pro_area_a{
+
+}
+.pro_area_a_text{
+	display: inline-block;
+	margin-right: 10px;
+}
+.pro_area_a_text span:nth-child(1){
+	font-size: 20px;
+	color: #585858;
+}
+.pro_area_a_text span:nth-child(3){
+	font-size: 18px;
+	color: #969696;
+	line-height: 30px;
+}
+.pro_img{
+	text-align: center;
+}
+.pro_area_a_img{
+	position: relative;
+	top: -70px;
+}
+.pro_area_b{
+	margin-top: 92px;
+}
+.pro_img_mid{
+	margin-top: 70px;
+}
+.pro_area_c{
+	text-align: left;
+}
+.pro_area_c_text{
+	display: inline-block;
+	margin-left: 10px;
+}
+.pro_area_c_text span:nth-child(1){
+	font-size: 20px;
+	color: #585858;
+}
+.pro_area_c_text span:nth-child(3){
+	font-size: 18px;
+	color: #969696;
+	line-height: 30px;
+}
+.pro_area_c_img{
+	position: relative;
+	top: -70px;
+}
+.pro_area_d{
+	margin-top: 92px;
+}
+.about_swim {
+	height: 530px;
+	text-align: center;
+	background-image: url("../img/1920px_530px_banner1.png");
+	background-size: cover;
+	margin-top: 54px;
+}
+.sale_left{
+	text-align: right;
+}
+.sale_right_text{
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 20px;
+	
+}
+.sale_right_text span:nth-child(1){
+	color: #585858;
+	font-size: 20px;
+}
+.sale_right_text span:nth-child(3){
+	color: #969696;
+	font-size: 18px;
+	line-height: 30px;
+}
+.sale_right_img{
+	position: relative;
+	top: -30px;
+}
+.big_area{
+	margin-top: 90px;
+	text-align: center;
+	margin-bottom: -135px;
+}
+.big_area img{
+	width: 100%;
+}
+.big_area span{
+	font-size: 44px;
+	display: block;
+	color: #ffffff;
+	position: relative;
+	top: -600px;
+}
+.sel_bl{
+	position: absolute;
+	z-index: 10;
+	top: 100px;
+	left: 0px;
+	background: #ffffff;
+	line-height: 30px !important;
+	width: 100%;
+	padding-left: 38%;
+}
+.sel_bl span{
+	display: inline-block;
+	font-size: 20px;
+	width: 13%;
+	text-align: center;
+}
+.span_r{
+	border-right: 1px solid #585858;
+}

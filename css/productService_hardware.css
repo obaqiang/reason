@@ -1,0 +1,101 @@
+.hardware_head{
+	border-bottom:1px solid #e0332b;
+	height: 90px;
+	line-height: 90px;	
+	font-size: 34px;
+	color: #e0332b;
+	padding-left: 100px;
+}
+.hardware_name{
+	text-align: center;
+	margin-top: 20px;
+}
+.hardware_name span{
+	color: #262626;
+	display: block;
+	font-size: 24px;
+	line-height: 40px;
+}
+.hardware_name_on{
+	color: #dd2a26 !important;
+}
+.hardware_list{
+	margin-top: 20px;
+	border-left: 1px solid #E0332B;
+	padding-left: 30px;
+	position: relative;
+	left: -50px;
+	min-height: 700px;
+}
+.hardware_list_bl{
+	overflow: hidden;
+	padding-bottom: 30px ;
+	padding-top: 30px;
+	border-bottom: 1px solid #808080;
+}
+.hardware_img{
+	float: left;
+	border: 1px solid #dddddd;
+}
+.hardware_list_bl_text{
+	float: left;
+	font-size: 18px;
+	color: #262626;
+	padding-left: 60px;
+	position: relative;
+}
+.bl_text_name{
+	position: absolute;
+	top: 10px;
+	width: 500px;
+}
+.bl_text_fun{
+	position: absolute;
+	top: 60px;
+	width: 500px;
+}
+.bl_text_set{
+	position: absolute;
+	top: 110px;
+	width: 500px;
+}
+.hardware_page{
+	color: #262626;
+	text-align: center;
+	font-size: 24px;
+	line-height: 50px;
+	margin-top: 30px;
+}
+.hardware_page span{
+	display: inline-block;
+	margin: 0 15px;
+}
+.bl_text_btn{
+	display: inline-block;
+	font-size: 24px;
+	background: #00a0e9;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 10px;
+	width: 100px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.hard_down{
+	overflow: hidden;
+}
+.hard_down_text{
+	float: left;
+	font-size: 18px;
+	margin-top: 10px;
+	display: inline-block;
+	width: 80%;
+}
+.hard_down_btn{
+	float: right;
+	font-size: 18px;
+	margin-top: 10px;
+	color: #00a0e9;
+}

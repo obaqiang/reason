@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="format-detection" content="telephone=no" />
+		<title> BD贵宾卡</title>
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="../css/swiper-3.3.1.min.css" />
+		<link rel="stylesheet" href="../css/BD_offical.css" />
+		<link rel="stylesheet" href="../css/productService.css" />
+		<script src="../js/html5shiv.min.js"></script>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-default nav_bd" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+						<span class="sr-only">切换导航</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">菜鸟教程</a>
+				</div>
+				<div class="collapse navbar-collapse" id="example-navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">首页</a>
+						</li>
+						<li>
+							<a href="#">SVN</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Java <b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">jmeter</a>
+								</li>
+								<li>
+									<a href="#">EJB</a>
+								</li>
+								<li>
+									<a href="#">Jasper Report</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">分离的链接</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">另一个分离的链接</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<script src="../js/jquery-1.11.3.min.js "></script>
+		<script src="../js/bootstrap.js "></script>
+
+		<!--<script>
+			//各个屏幕大小适配
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 100 * (clientWidth / 375) + 'px';
+					};
+
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>-->
+		<script>
+			$('.case_img').mouseover(function() {
+				$(this).children('.case_alert').fadeIn();
+			})
+			$('.case_img').mouseleave(function() {
+				$(this).children('.case_alert').fadeOut();
+			})
+			$("#myCarousel ").carousel({
+				interval: 3000
+			});
+		</script>
+
+	</body>
+
+</html>

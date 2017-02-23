@@ -1,0 +1,78 @@
+.bg_fb{
+	background: #fbfbfb;
+}
+.merchant_a_left{
+	text-align: right;
+	padding-right: 100px;
+	padding-top: 76px;
+}
+.merchant_a_right{
+	text-align: left;
+	padding-left: 100px;
+	padding-top: 130px;
+}
+.bibi_text{
+	display: inline-block;
+	text-align: center;
+}
+.bibi_text span:nth-child(1){
+	color: #777777;
+	font-size: 46px;
+}
+.bibi_text span:nth-child(3){
+	font-size: 22px;
+	color: #6d6d6d;
+	line-height: 40px;
+}
+.merchant_fun{
+	margin-top: 100px;
+}
+.marketing{
+	text-align: center;
+}
+.marketing_bl{
+	display: inline-block;
+	width: 20%;
+}
+.marketing_bl span:nth-child(3){
+	color: #585858;
+	font-size: 28px;
+	display: inline-block;
+	margin-top: 22px;
+}
+.marketing_bl span:nth-child(5){
+	color: #6d6d6d;
+	font-size: 16px;
+	line-height: 25px;
+	display: inline-block;
+	margin-top: 22px;
+	vertical-align: text-top;
+}
+.mer_adv{
+	background: #fbfbfb;
+	text-align: center;
+}
+.mer_adv h1{
+	font-size: 32px;
+	margin-top: 36px;
+}
+.mer_adv span{
+	color: #6d6d6d;
+	font-size: 14px;
+	margin-bottom: 36px;
+	display: inline-block;
+}
+.pro_img{
+	text-align: center;
+	margin-top: 68px;
+}
+.pro_img_sma span{
+	display: inline-block;
+	width: 11%;
+}
+.pro_img img{
+}
+.pro_text{
+	color: #6d6d6d;
+	font-size: 22px;
+}
