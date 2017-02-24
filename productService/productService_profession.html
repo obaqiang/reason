@@ -325,7 +325,17 @@
 			})(document, window);
 		</script>-->
 			<script src="../js/swiper.min.js "></script>
-
+			<script>
+			$('.case_img').mouseover(function(){
+				$(this).children('.case_alert').fadeIn();
+			})
+			$('.case_img').mouseleave(function(){
+				$(this).children('.case_alert').fadeOut();
+			})
+			$("#myCarousel ").carousel({
+			 interval: 3000
+			});
+		</script>
 	</body>
 
 </html>

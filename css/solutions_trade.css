@@ -39,6 +39,7 @@
 }
 .line_title{
 	text-align: center;
+	margin-top: 66px;
 }
 .line_title img{
 	margin: auto;
@@ -48,4 +49,46 @@
 	color: #262626;
 	margin-top: -25px;
 	display: inline-block;
+}
+.pros{
+	display: inline-block;
+	margin-top: 200px;
+	margin-left: 200px;
+}
+.pros_area img{
+	float: right;
+	margin-top: 134px;
+}
+.pros_title{
+	font-size: 32px;
+	color: #333333;
+}
+.pros_content{
+	font-size: 24px;
+	color: #333333;
+	display: inline-block;
+	margin-left: 20px;
+}
+.sols{
+	display: inline-block;
+	width: 50%;
+	float: right;
+}
+.sols_area{
+	margin-top: 96px;
+}
+.sols_area img{
+	float: left;
+}
+.sols_title{
+	color: #ff4040;
+	font-size: 24px;
+	display: inline-block;
+	line-height: 60px;
+}
+.sols_content{
+	color: #262626;
+	font-size: 24px;
+	display: inline-block;
+	line-height: 60px;
 }

@@ -1,0 +1,16 @@
+.file_case_img{
+	text-align: center;
+}
+.file_case_img_area{
+	display: inline-block;
+	margin: 70px 20px;
+}
+.file_case_img_area img{
+	display: block;
+}
+.file_case_img_area span{
+	color: #262626;
+	font-size: 36px;
+	display: inline-block;
+	margin-top: 20px;
+}

@@ -1,0 +1,21 @@
+.img_four{
+	overflow: hidden;
+}
+.img_four img{
+	width: 25%;
+	float: left;
+}
+.text_header{
+	text-align: center;
+	border-bottom: 1px solid #262626;
+	font-size: 28px;
+	line-height: 70px;
+	margin-top: 20px;
+}
+.text_content{
+	margin-top: 82px;
+	font-size: 20px;
+	line-height: 60px;
+	text-indent:60px;
+	color: #262626;
+}

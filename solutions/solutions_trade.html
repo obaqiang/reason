@@ -120,12 +120,39 @@
 		</div>
 		
 		<div class="row">
-			<div class="col-lg-12">
+			<div class="col-lg-2">
 				
 			</div>
-			<div class="col-lg-8">
-				<div class="">
+			<div class="col-lg-8 pros_area">
+				<div class="pros">
+					<span class="pros_title">难点与瓶颈:</span><br />
+					<span class="pros_content">无法形成长期消费<br />
+					企业无其他有效的引流手段<br />
+					打折为主</span>
 					
+				</div>
+				<img src="../img/594px_460px_2.png" alt="" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 line_title">
+				<img class="img-responsive " src="../img/1192px_4px_solid.png" alt="" />
+				<span>解决方案</span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-2">
+				
+			</div>
+			<div class="col-lg-8 sols_area">
+				<img class="img-responsive" src="../img/482px_500px_3.png" alt="" />
+				<div class="sols">
+					<span class="sols_title">1、客源转化</span><br />
+					<span class="sols_content">利用BD贵宾卡帮助商家把客流导流到商户</span><br />
+					<span class="sols_title">2、丰富的支付渠道</span><br />
+					<span class="sols_content">BD贵宾卡有多种支付方式，支持BD贵宾卡、支付宝，微信等</span><br />
+					<span class="sols_title">3、拓展客源</span><br />
+					<span class="sols_content">BD贵宾卡有多种营销活动。如：储值送积分，储值送金等活动</span>
 				</div>
 			</div>
 		</div>
@@ -203,7 +230,17 @@
 			})(document, window);
 		</script>-->
 		<script src="../js/swiper.min.js "></script>
-
+		<script>
+			$('.case_img').mouseover(function(){
+				$(this).children('.case_alert').fadeIn();
+			})
+			$('.case_img').mouseleave(function(){
+				$(this).children('.case_alert').fadeOut();
+			})
+			$("#myCarousel ").carousel({
+			 interval: 3000
+			});
+		</script>
 	</body>
 
 </html>
