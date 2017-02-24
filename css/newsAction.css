@@ -1,0 +1,31 @@
+.hardware_list_area{
+	overflow: hidden;
+	margin-top: 20px;
+}
+.hardware_list img{
+	float: left;
+}
+.hardware_list_text{
+	display: inline-block;
+	float: left;
+	width: 60%;
+	overflow: hidden;
+	position: relative;
+	left: 5%;
+}
+.hardware_list_title{
+	font-size: 24px;
+	color: #262626;
+	float: left;
+}
+.hardware_list_time{
+	font-size: 16px;
+	color: #262626;
+	float: right;
+}
+.hardware_list_content{
+	font-size: 18px;
+	color: #262626;
+	float: left;
+	line-height: 30px;
+}
