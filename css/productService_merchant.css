@@ -6,6 +6,9 @@
 	padding-right: 100px;
 	padding-top: 76px;
 }
+.btm_p{
+	padding-bottom: 50px;
+}
 .merchant_a_right{
 	text-align: left;
 	padding-left: 100px;
@@ -25,10 +28,11 @@
 	line-height: 40px;
 }
 .merchant_fun{
-	margin-top: 100px;
+	margin-top: 0px;
 }
 .marketing{
 	text-align: center;
+	padding-bottom: 50px;
 }
 .marketing_bl{
 	display: inline-block;

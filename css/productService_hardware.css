@@ -17,6 +17,7 @@
 	line-height: 40px;
 }
 .hardware_name_on{
+	font-size: 28px !important;
 	color: #dd2a26 !important;
 }
 .hardware_list{
@@ -98,4 +99,7 @@
 	font-size: 18px;
 	margin-top: 10px;
 	color: #00a0e9;
+}
+.four_img img{
+	height: 200px;
 }

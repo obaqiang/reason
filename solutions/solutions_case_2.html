@@ -15,6 +15,7 @@
 		<link rel="stylesheet" href="../css/productService_apply.css" />
 		<link rel="stylesheet" href="../css/productService_hardware.css" />
 		<link rel="stylesheet" href="../css/solutions_case_2.css" />
+		<link rel="stylesheet" href="../css/swiper-3.3.1.min.css" />
 		<script src="../js/html5shiv.min.js"></script>
 	</head>
 
@@ -119,29 +120,47 @@
 						<span>零售行业</span>
 					</div>
 					<div class="col-lg-9 hardware_list">
-						<div class="img_four">
-							<img src="../img/400px_260px_p4.png" alt="" />
-							<img src="../img/400px_260px_p4.png" alt="" />
-							<img src="../img/400px_260px_p4.png" alt="" />
-							<img src="../img/400px_260px_p4.png" alt="" />
+						<div class="swiper-container four_img ">
+							<div class="swiper-wrapper ">
+								<div class="swiper-slide ">
+									<img class="img-responsive" src="../img/113px_113px_5.png" alt=" " />
+								</div>
+								<div class="swiper-slide ">
+									<img class="img-responsive" src="../img/400px_260px_p2.png" alt=" " />
+								</div>
+								<div class="swiper-slide ">
+									<img class="img-responsive" src="../img/400px_260px_p2.png" alt=" " />
+								</div>
+								<div class="swiper-slide ">
+									<img class="img-responsive" src="../img/280px_200px_shop4.png " alt=" " />
+								</div>
+								<div class="swiper-slide ">
+									<img class="img-responsive" src="../img/280px_200px_shop4.png " alt=" " />
+								</div>
+								<div class="swiper-slide ">
+									<img class="img-responsive" src="../img/280px_200px_shop4.png " alt=" " />
+								</div>
+							</div>
+							<!-- Add Pagination -->
+							<div class="swiper-pagination "></div>
 						</div>
 						<div class="text_area">
 							<div class="text_header">
 								麦田香草一会员营销新模式
 							</div>
 							<div class="text_content">
-								精神分裂肯德基两款手机螺丝钉解放两款手机的法兰克就收到了疯狂就收到了空间螺丝钉棵解放螺丝钉解放螺丝钉解放螺丝钉解放了宽松的解放立刻集散地立刻飞机上的垃圾分类隧道进口三菱电机发牢骚款到即发拉萨扩大解放了空间 放松的就离开技术的法兰克竭斯底里开飞机螺丝钉解放了三季度累计回购立刻解放打开   风电开发的符合法规发给的符合法定房贷发放的 警方的就的法兰克就；发的解放的法定房贷烦得很喝咖啡的法定发发动机号梵蒂冈花费大概花费的话烦得很发的花费的话
+								精神分裂肯德基两款手机螺丝钉解放两款手机的法兰克就收到了疯狂就收到了空间螺丝钉棵解放螺丝钉解放螺丝钉解放螺丝钉解放了宽松的解放立刻集散地立刻飞机上的垃圾分类隧道进口三菱电机发牢骚款到即发拉萨扩大解放了空间 放松的就离开技术的法兰克竭斯底里开飞机螺丝钉解放了三季度累计回购立刻解放打开 风电开发的符合法规发给的符合法定房贷发放的 警方的就的法兰克就；发的解放的法定房贷烦得很喝咖啡的法定发发动机号梵蒂冈花费大概花费的话烦得很发的花费的话
 							</div>
-							
+
 						</div>
-						
+
 					</div>
 				</div>
 
 			</div>
 
 		</div>
-		
+
 		<!--<div class="row">
 			<div class="col-lg-12 hardware_page">
 				<span>首页</span>
@@ -207,6 +226,7 @@
 			</div>
 		</div>
 		<script src="../js/jquery-1.11.3.min.js "></script>
+		<script src="../js/swiper.min.js"></script>
 		<script src="../js/bootstrap.js "></script>
 
 		<!--<script>
@@ -227,14 +247,26 @@
 		</script>-->
 		<script src="../js/swiper.min.js "></script>
 		<script>
-			$('.case_img').mouseover(function(){
+			$('.case_img').mouseover(function() {
 				$(this).children('.case_alert').fadeIn();
 			})
-			$('.case_img').mouseleave(function(){
+			$('.case_img').mouseleave(function() {
 				$(this).children('.case_alert').fadeOut();
 			})
 			$("#myCarousel ").carousel({
-			 interval: 3000
+				interval: 3000
+			});
+			var swiper = new Swiper('.four_img', {
+				pagination: '.swiper-pagination',
+				//    nextButton: '.swiper-button-next',
+				//    prevButton: '.swiper-button-prev',
+				paginationClickable: true,
+				slidesPerView: 4,
+				//    spaceBetween: 30,
+				//    centeredSlides: true,
+				//				autoplay: 2500,
+				//				loop:true
+				//    autoplayDisableOnInteraction: false
 			});
 		</script>
 

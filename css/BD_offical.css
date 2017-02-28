@@ -84,6 +84,7 @@ a{
 	font-size: 16px;
 	line-height: 20px;
 	color: #666666;
+	margin-top: 20px;
 }
 
 .list_left_img {
@@ -137,6 +138,7 @@ a{
 
 .system_row {
 	margin-top: 80px;
+	overflow: hidden;
 }
 
 .system_title {
