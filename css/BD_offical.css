@@ -406,3 +406,185 @@ a{
 .small_loop .swiper-slide{
 	height: 300px;
 }
+.page-scroll>a:hover{
+	border-bottom: 3px solid #cb2920;
+}
+.navbar-brand:hover{
+	border-bottom: none !important;
+}
+.ch_area{
+	position: relative;
+}
+.op_area{
+	background: #fff;
+	opacity: 0.7;
+	display: inline-block;
+	width: 300px;
+	height: 90%;
+	position: absolute;
+	top: 5%;
+	left: 20%;
+	border-radius: 10px;
+}
+.op_area_2{
+	background: #fff;
+	opacity: 0.7;
+	display: inline-block;
+	width: 25%;
+	height: 78%;
+	position: absolute;
+	top: 15%;
+	left: 69%;
+	border-radius: 10px;
+}
+.ch_text{
+	font-size: 30px;
+	color: #1a1a1a;
+}
+
+.ch_1{
+	position: absolute;
+	top: 10%;
+	left: 23%;
+	
+}
+.ch_2{
+	position: absolute;
+	top: 20%;
+	left: 23%;
+	width: 200px;
+}
+.ch_3{
+	position: absolute;
+	top: 32%;
+	left: 23%;
+	width: 200px;
+}
+.ch_4{
+	position: absolute;
+	top: 44%;
+	left: 23%;
+	width: 200px;
+}
+.ch_5{
+	position: absolute;
+	top: 56%;
+	left: 23%;
+	width: 200px;
+}
+.ch_6{
+	position: absolute;
+	top: 68%;
+	left: 23%;
+	width: 200px;
+}
+.ch_7{
+	position: absolute;
+	top: 80%;
+	left: 23%;
+	width: 200px;
+}
+.ch_img{
+	width: 40px;
+	margin-right: 5%;
+	position: relative;
+	top: -5px;
+}
+.bh{
+	font-size: 30px;
+	color: #1a1a1a;
+	position: absolute;
+	top: 19%;
+	left: 73%;
+}
+.bh_1{
+	font-size: 30px;
+	color: #ff0000;
+	position: absolute;
+	top: 28%;
+	left: 72%;
+	width: 18%;
+}
+.bh_2{
+	font-size: 30px;
+	color: #ff0000;
+	position: absolute;
+	top: 47%;
+	left: 72%;
+	width: 18%;
+}
+.bh_3{
+	font-size: 30px;
+	color: #ff0000;
+	position: absolute;
+	top: 64%;
+	left: 72%;
+	width: 18%;
+	
+}
+.ic_1{
+	background: #ff0000;
+	position: fixed;
+	width: 35px;
+	height: 35px;
+	right: 0;
+	bottom: 380px;
+	z-index: 20;
+}
+.ic_2{
+	background: #ff0000;
+	position: fixed;
+	width: 35px;
+	height: 35px;
+	right: 0;
+	bottom: 340px;
+	z-index: 20;
+}
+.ic_3{
+	background: #ff0000;
+	position: fixed;
+	width: 35px;
+	height: 35px;
+	right: 0;
+	bottom: 300px;
+	z-index: 20;
+}
+.ch_bl{
+	display: inline-block;
+	width:400px;
+	padding-top: 40px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	position: relative;
+	height: 500px;
+	vertical-align: text-top;
+}
+.ch_bl_on{
+	border: 2px solid #ff0000;
+}
+.ch_bl_area{
+	text-align: center;
+}
+.ch_bl_img{
+	width: 125px;
+}
+.ch_bl_img_2{
+	width: 190px;
+}
+.ch_bl_title{
+	font-size: 24px;
+	color: #333333;
+	display: inline-block;
+	margin-top: 40px;
+}
+.ch_bl_content{
+	display: inline-block;
+	width: 300px;
+	font-size: 18px;
+	margin-top: 30px;
+}
+.xing{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
